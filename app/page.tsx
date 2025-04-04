@@ -57,18 +57,30 @@ const projects: Project[] = [
   {
     title: "Plataforma E-commerce",
     description: "Uma plataforma completa de e-commerce construída com Next.js, TypeScript e Tailwind CSS. Inclui autenticação de usuários, gerenciamento de produtos e processamento de pagamentos.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
     githubUrl: "https://github.com/username/ecommerce",
-    liveUrl: "https://ecommerce-demo.com"
+    liveUrl: "https://ecommerce-demo.com",
+    images: [
+      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1612422380917-0a07c914dc15?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=1000"
+    ]
   },
   {
     title: "App de Gerenciamento de Tarefas",
     description: "Um aplicativo colaborativo de gerenciamento de tarefas com atualizações em tempo real, funcionalidade de arrastar e soltar e recursos de colaboração em equipe.",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
     tags: ["React", "Node.js", "Socket.io", "PostgreSQL"],
     githubUrl: "https://github.com/username/task-manager",
-    liveUrl: "https://task-manager-demo.com"
+    liveUrl: "https://task-manager-demo.com",
+    images: [
+      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=1000"
+    ]
   },
   {
     title: "Gerador de Conteúdo com IA",
@@ -76,17 +88,15 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
     tags: ["OpenAI", "React", "Express", "MongoDB"],
     githubUrl: "https://github.com/username/ai-content",
-    liveUrl: "https://ai-content-demo.com"
+    liveUrl: "https://ai-content-demo.com",
+    images: [
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1676320831395-7d57b5e09ba7?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1673187178966-2ed3020ed83b?auto=format&fit=crop&q=80&w=1000",
+      "https://images.unsplash.com/photo-1675557009875-6864c6fd8e3d?auto=format&fit=crop&q=80&w=1000"
+    ]
   }
-].map(project => ({
-  ...project,
-  images: [
-    project.image,
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
-    "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=1000"
-  ]
-}));
+];
 
 export default function Home() {
   const [currentImages, setCurrentImages] = useState<{ [key: number]: number }>({});
