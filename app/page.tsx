@@ -28,28 +28,28 @@ interface Podcast {
 
 const podcasts: Podcast[] = [
   {
-    title: "O Futuro do Desenvolvimento Web",
-    host: "TechCast Brasil",
+    title: "BUSINESS E TECNOLOGIA | RA1Z",
+    host: "PROGRAMA SAUDAÇÕES",
     description: "Uma conversa profunda sobre as tendências emergentes no desenvolvimento web, frameworks modernos e o futuro da programação.",
     date: "15 de Março, 2024",
     image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=1000",
-    url: "https://example.com/podcast1"
+    url: "https://www.youtube.com/watch?v=ykMN5I_4qm0&t=873s"
   },
   {
-    title: "Carreira em Tecnologia",
-    host: "Dev Journey",
+    title: "DEEPSEEK: A NOVA PROMESSA DO MERCADO? | RA1Z - SÉRIE",
+    host: "PROGRAMA SAUDAÇÕES",
     description: "Compartilhando minha jornada no mundo do desenvolvimento, desafios superados e dicas para novos desenvolvedores.",
     date: "28 de Fevereiro, 2024",
     image: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?auto=format&fit=crop&q=80&w=1000",
-    url: "https://example.com/podcast2"
+    url: "https://www.youtube.com/watch?v=ke9xqmKSVEs&t=1381s"
   },
   {
-    title: "Inovação e Tecnologia",
-    host: "Tech Talks BR",
+    title: "A REVOLUÇÃO DA IA: SOLUÇÕES E PROBLEMÁTICAS ",
+    host: "SAUDAÇÕES PODCAST",
     description: "Discussão sobre inovação tecnológica, projetos open-source e o impacto da tecnologia na sociedade.",
     date: "10 de Janeiro, 2024",
     image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&q=80&w=1000",
-    url: "https://example.com/podcast3"
+    url: "https://www.youtube.com/watch?v=gMS4qJ86dJA&t=149s"
   }
 ];
 
