@@ -72,7 +72,7 @@ const projects: Project[] = [
     title: "SO1L: Inteligência Artificial Nativa da RA1Z",
     description: "Participei ativamente do desenvolvimento da SO1L, IA proprietária da RA1Z, projetada para oferecer soluções inteligentes e personalizadas em gestão de dados e automação de processos. Minha contribuição incluiu: Modelagem de algoritmos para processamento de linguagem natural (NLP) e análise preditiva. Integração de APIs que conectam a IA a sistemas internos e plataformas de terceiros.Otimização de performance para respostas rápidas e escalabilidade em grandes volumes de dados.Desenvolvida com tecnologias como Python, TensorFlow e Node.js, a SO1L se destaca por sua capacidade de aprendizado contínuo, adaptando-se às necessidades dinâmicas de negócios e entregando insights acionáveis."
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "Javascript", "PostgreSQL"],
+    tags: ["Python", "Javascript", "Mistral"],
     githubUrl: "https://github.com/username/task-manager",
     liveUrl: "https://task-manager-demo.com",
     images: [
@@ -86,7 +86,7 @@ const projects: Project[] = [
     title: "App de Gerenciamento Financeiro GSTCOM",
     description: "Desenvolvi o GSTCON, aplicativo de gestão financeira interno da TV BAND Maranhão, criado para otimizar e automatizar processos contábeis e administrativos. A solução oferece:Controle integrado de despesas, receitas e fluxo de caixa em tempo real. Relatórios automatizados com dashboards intuitivos para análise financeira ágil.Segurança de dados e acesso restrito por níveis de permissão. Design responsivo, acessível tanto em desktop quanto mobile.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
-    tags: ["OpenAI", "React", "Express", "MongoDB"],
+    tags: ["Python", "CSS", "Typescript", "MongoDB"],
     githubUrl: "https://github.com/username/ai-content",
     liveUrl: "https://ai-content-demo.com",
     images: [
