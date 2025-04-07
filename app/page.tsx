@@ -55,10 +55,10 @@ const podcasts: Podcast[] = [
 
 const projects: Project[] = [
   {
-    title: "Plataforma E-commerce",
-    description: "Uma plataforma completa de e-commerce construída com Next.js, TypeScript e Tailwind CSS. Inclui autenticação de usuários, gerenciamento de produtos e processamento de pagamentos.",
+    title: "Portal de Notícias da TV BAND E Difusora News ",
+    description: "Desenvolvi os portais de notícias da TV BAND Maranhão e da Difusora News, dois dos principais sites de informação do estado, combinando performance técnica e usabilidade. Com arquitetura otimizada para carregamento rápido, design responsivo e integração ágil de conteúdo, ambos os projetos entregam uma experiência moderna aos leitores, aliando robustez tecnológica à demanda dinâmica do jornalismo digital.",
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+    tags: ["HTML 5", "CSS", "JavaScript", "Wordpress"],
     githubUrl: "https://github.com/username/ecommerce",
     liveUrl: "https://ecommerce-demo.com",
     images: [
@@ -69,10 +69,11 @@ const projects: Project[] = [
     ]
   },
   {
-    title: "App de Gerenciamento de Tarefas",
-    description: "Um aplicativo colaborativo de gerenciamento de tarefas com atualizações em tempo real, funcionalidade de arrastar e soltar e recursos de colaboração em equipe.",
+    title: "SO1L: Inteligência Artificial Nativa da RA1Z",
+    description: "Participei ativamente do desenvolvimento da SO1L, IA proprietária da RA1Z, projetada para oferecer soluções inteligentes e personalizadas em gestão de dados e automação de processos. Minha contribuição incluiu: Modelagem de algoritmos para processamento de linguagem natural (NLP) e análise preditiva. Integração de APIs que conectam a IA a sistemas internos e plataformas de terceiros.Otimização de performance para respostas rápidas e escalabilidade em grandes volumes de dados.Desenvolvida com tecnologias como Python, TensorFlow e Node.js, a SO1L se destaca por sua capacidade de aprendizado contínuo, adaptando-se às necessidades dinâmicas de negócios e entregando insights acionáveis.",
+
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
-    tags: ["React", "Node.js", "Socket.io", "PostgreSQL"],
+    tags: ["Python", "Javascript", "Mistral"],
     githubUrl: "https://github.com/username/task-manager",
     liveUrl: "https://task-manager-demo.com",
     images: [
@@ -83,10 +84,10 @@ const projects: Project[] = [
     ]
   },
   {
-    title: "Gerador de Conteúdo com IA",
-    description: "Uma ferramenta de geração de conteúdo alimentada por IA que ajuda a criar posts de blog, conteúdo para redes sociais e textos de marketing usando GPT-3.",
+    title: "App de Gerenciamento Financeiro GSTCOM",
+    description: "Desenvolvi o GSTCON, aplicativo de gestão financeira interno da TV BAND Maranhão, criado para otimizar e automatizar processos contábeis e administrativos. A solução oferece:Controle integrado de despesas, receitas e fluxo de caixa em tempo real. Relatórios automatizados com dashboards intuitivos para análise financeira ágil.Segurança de dados e acesso restrito por níveis de permissão. Design responsivo, acessível tanto em desktop quanto mobile.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
-    tags: ["OpenAI", "React", "Express", "MongoDB"],
+    tags: ["Python", "CSS", "Typescript", "MongoDB"],
     githubUrl: "https://github.com/username/ai-content",
     liveUrl: "https://ai-content-demo.com",
     images: [
@@ -272,10 +273,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-xl text-muted-foreground leading-relaxed"
               >
-                Sou um desenvolvedor full-stack apaixonado com expertise em tecnologias web modernas.
-                Minha jornada no desenvolvimento de software começou com uma curiosidade por criar
-                experiências interativas, e evoluiu para um amor profundo por construir
-                aplicações escaláveis e centradas no usuário.
+                Desenvolvedor Front-end com 2+ anos de experiência no mercado, atualmente COO do branding de tecnologia RA1Z.org. Formando em Análise e Desenvolvimento de Sistemas, estudo programação desde os 16 anos e hoje me especializo em desenvolvimento web com tecnologias modernas. Minha paixão por criar interfaces interativas e centradas no usuário me impulsiona a entregar soluções escaláveis e de alto impacto.
               </motion.p>
               <motion.div
                 variants={staggerContainer}
@@ -300,7 +298,7 @@ export default function Home() {
                   <Globe className="w-8 h-8 mb-4 text-primary" />
                   <h3 className="text-xl font-semibold mb-2">Sistemas Backend</h3>
                   <p className="text-muted-foreground">
-                    Construindo APIs robustas e arquiteturas escaláveis
+                    Construindo Sistemas robustos e arquiteturas escaláveis
                   </p>
                 </motion.div>
               </motion.div>
