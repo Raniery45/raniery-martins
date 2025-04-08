@@ -62,10 +62,10 @@ const projects: Project[] = [
     githubUrl: "https://github.com/username/ecommerce",
     liveUrl: "https://ecommerce-demo.com",
     images: [
-      "/images/portal-band-1.jpg",
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1612422380917-0a07c914dc15?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=1000"
+      "/images/bandcelular.png",
+      "/images/bandnotebook.png",
+      "/images/difusoracelular.png",
+      "/images/difusoranotebook.png"
     ]
   },
   {
@@ -80,7 +80,6 @@ const projects: Project[] = [
       "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=1000"
     ]
   },
   {
