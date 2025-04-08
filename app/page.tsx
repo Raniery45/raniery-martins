@@ -62,7 +62,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/username/ecommerce",
     liveUrl: "https://ecommerce-demo.com",
     images: [
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
+      "/images/portal-band-1.jpg",
       "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1612422380917-0a07c914dc15?auto=format&fit=crop&q=80&w=1000",
       "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=1000"
