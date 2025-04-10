@@ -32,7 +32,7 @@ const podcasts: Podcast[] = [
     host: "PROGRAMA SAUDAÇÕES",
     description: "Uma conversa profunda sobre as tendências emergentes no desenvolvimento web, frameworks modernos e o futuro da programação.",
     date: "15 de Março, 2024",
-    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=1000",
+    image: "images/podcast1.png",
     url: "https://www.youtube.com/watch?v=ykMN5I_4qm0&t=873s"
   },
   {
@@ -40,7 +40,7 @@ const podcasts: Podcast[] = [
     host: "PROGRAMA SAUDAÇÕES",
     description: "Compartilhando minha jornada no mundo do desenvolvimento, desafios superados e dicas para novos desenvolvedores.",
     date: "28 de Fevereiro, 2024",
-    image: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?auto=format&fit=crop&q=80&w=1000",
+    image: "images/podcast2.png",
     url: "https://www.youtube.com/watch?v=ke9xqmKSVEs&t=1381s"
   },
   {
@@ -48,7 +48,7 @@ const podcasts: Podcast[] = [
     host: "SAUDAÇÕES PODCAST",
     description: "Discussão sobre inovação tecnológica, projetos open-source e o impacto da tecnologia na sociedade.",
     date: "10 de Janeiro, 2024",
-    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&q=80&w=1000",
+    image: "images/podcast3.png",
     url: "https://www.youtube.com/watch?v=gMS4qJ86dJA&t=149s"
   }
 ];
@@ -77,23 +77,20 @@ const projects: Project[] = [
     githubUrl: "https://github.com/username/task-manager",
     liveUrl: "https://task-manager-demo.com",
     images: [
-      "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=1000",
+      "/images/so1l.png",
+      "/images/so1lcelular.png",
     ]
   },
   {
-    title: "App de Gerenciamento Financeiro GSTCOM",
-    description: "Desenvolvi o GSTCON, aplicativo de gestão financeira interno da TV BAND Maranhão, criado para otimizar e automatizar processos contábeis e administrativos. A solução oferece:Controle integrado de despesas, receitas e fluxo de caixa em tempo real. Relatórios automatizados com dashboards intuitivos para análise financeira ágil.Segurança de dados e acesso restrito por níveis de permissão. Design responsivo, acessível tanto em desktop quanto mobile.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Python", "CSS", "Typescript", "MongoDB"],
+    title: "Site ecossistema RA1Z",
+    description: "Desenvolvi o site de apresentação da RA1Z ecossistema, que se trata de um site portifólio de produtos e soluções",
+    image: "/images/raiz.png",
+    tags: ["HTML", "Tailwind CSS", "Typescript", "Wordpress"],
     githubUrl: "https://github.com/username/ai-content",
-    liveUrl: "https://ai-content-demo.com",
+    liveUrl: "http://ra1z.org/",
     images: [
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1676320831395-7d57b5e09ba7?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1673187178966-2ed3020ed83b?auto=format&fit=crop&q=80&w=1000",
-      "https://images.unsplash.com/photo-1675557009875-6864c6fd8e3d?auto=format&fit=crop&q=80&w=1000"
+      "/images/raiz.png",
+      "images/ra1zcelular.png",
     ]
   }
 ];
@@ -272,7 +269,7 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-xl text-muted-foreground leading-relaxed"
               >
-                Desenvolvedor Front-end com 2+ anos de experiência no mercado, atualmente COO do branding de tecnologia RA1Z.org. Formando em Análise e Desenvolvimento de Sistemas, estudo programação desde os 16 anos e hoje me especializo em desenvolvimento web com tecnologias modernas. Minha paixão por criar interfaces interativas e centradas no usuário me impulsiona a entregar soluções escaláveis e de alto impacto.
+                Desenvolvedor Front-end com 2+ anos de experiência no mercado, atualmente COO do branding de tecnologia RA1Z.org Formando em Análise e Desenvolvimento de Sistemas, estudo programação desde os 16 anos e hoje me especializo em desenvolvimento web com tecnologias modernas. Minha paixão por criar interfaces interativas e centradas no usuário me impulsiona a entregar soluções escaláveis e de alto impacto.
               </motion.p>
               <motion.div
                 variants={staggerContainer}
@@ -327,6 +324,8 @@ export default function Home() {
               <motion.img
                 src="/profile.jpg"
                 alt="Profile"
+                width={80}  
+                height={80} 
                 className="rounded-full object-cover w-full h-full"
                 initial={{ scale: 1.2 }}
                 whileHover={{ scale: 1.1 }}
@@ -651,7 +650,7 @@ export default function Home() {
               Vamos criar algo incrível juntos.
             </motion.p>
             <motion.a
-              href="mailto:your.email@example.com"
+              href="https://api.whatsapp.com/send?phone=5598985564099&text=Descubra%20a%20solução%20definitiva%20para%20transformar%20sua%20campanha%20eleitoral%20em%20uma%20trajetória%20de%20sucesso%20absoluto."
               className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-medium hover:opacity-90 transition-all hover:scale-105"
               whileHover={{
                 scale: 1.05,
@@ -680,7 +679,7 @@ export default function Home() {
       {/* Social Links Section */}
       <div className="flex justify-center gap-6 py-12 bg-secondary">
         <motion.a
-          href="https://github.com/yourusername"
+          href="https://github.com/ranierymartins"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, y: -5 }}
@@ -690,7 +689,7 @@ export default function Home() {
           <span className="sr-only">GitHub</span>
         </motion.a>
         <motion.a
-          href="https://instagram.com/yourusername"
+          href="https://instagram.com/raniery.martins_"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, y: -5 }}
@@ -710,7 +709,7 @@ export default function Home() {
           <span className="sr-only">Twitter</span>
         </motion.a>
         <motion.a
-          href="https://wa.me/yourphonenumber"
+          href="https://api.whatsapp.com/send?phone=5598985564099&text=Descubra%20a%20solução%20definitiva%20para%20transformar%20sua%20campanha%20eleitoral%20em%20uma%20trajetória%20de%20sucesso%20absoluto."
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1, y: -5 }}
