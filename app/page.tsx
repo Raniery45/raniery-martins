@@ -60,7 +60,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=1000",
     tags: ["HTML 5", "CSS", "JavaScript", "Wordpress"],
     githubUrl: "https://github.com/username/ecommerce",
-    liveUrl: "https://ecommerce-demo.com",
+    liveUrl: "hhttps://difusoranews.com/",
     images: [
       "/images/Bandcelular.png",
       "/images/bandnotebook.png",
@@ -75,7 +75,7 @@ const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
     tags: ["Python", "Javascript", "Mistral"],
     githubUrl: "https://github.com/username/task-manager",
-    liveUrl: "https://task-manager-demo.com",
+    liveUrl: "https://so1l.com",
     images: [
       "/images/so1l.png",
       "/images/so1lcelular.png",
