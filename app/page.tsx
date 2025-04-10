@@ -62,7 +62,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/username/ecommerce",
     liveUrl: "https://ecommerce-demo.com",
     images: [
-      "/images/bandcelular.png",
+      "/images/Bandcelular.png",
       "/images/bandnotebook.png",
       "/images/difusoracelular.png",
       "/images/difusoranotebook.png"
